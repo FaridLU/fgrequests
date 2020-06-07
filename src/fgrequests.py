@@ -29,7 +29,7 @@ def make_request(obj):
         
     return res
 
-def build(url_list=[], headers=None, data=None, method='GET', worker=70, custom_request=False, show_execution_time=False):
+def build(url_list=[], headers=None, data=None, method='GET', worker=40, custom_request=False, show_execution_time=False):
     
     if custom_request:
         pass
