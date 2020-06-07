@@ -8,7 +8,7 @@ def readme():
 
 setup(
     name='fgrequests',
-    version='0.0.1',
+    version='0.0.2',
     description='Fastest async group request package for Python',
     long_description=readme(),
     long_description_content_type='text/markdown',
@@ -22,13 +22,12 @@ setup(
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
-        'Topic :: Internet :: WWW/HTTP :: Dynamzic Content',
         'Topic :: Software Development :: Libraries :: Python Modules'
     ],
     url='https://github.com/faridlu/fgrequests',
     author='Farid Chowdhury',
     author_email='faridstudylu@gmail.com',
-    keywords='Fastest async group requests',
+    keywords='Fastest async group requests python multiple threading',
     py_modules=['fgrequests'],
     install_requires=[
         'requests',
