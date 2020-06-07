@@ -4,16 +4,6 @@
 [![PyPI pyversions](https://img.shields.io/pypi/pyversions/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
 [![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
 
-This is a Python implementation of John Gruber's [Markdown][].
-It is almost completely compliant with the reference implementation,
-though there are a few known issues. See [Features][] for information
-on what exactly is supported and what is not. Additional features are
-supported by the [Available Extensions][].
-
-[Python-Markdown]: https://Python-Markdown.github.io/
-[Markdown]: https://daringfireball.net/projects/markdown/
-[Features]: https://Python-Markdown.github.io#Features
-[Available Extensions]: https://Python-Markdown.github.io/extensions
 
 # Installation
 Install using pip:
