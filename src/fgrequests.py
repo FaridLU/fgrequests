@@ -22,10 +22,11 @@ def make_request(obj):
     data.update({'params': obj['data']}) if obj['data'] and obj['method'] == 'GET' else None
     data.update({'data': obj['data']}) if obj['data'] and obj['method'] != 'GET' else None
     
-    res = ''
-    with session.request(**data) as response:
-        res = response
-
+    try:
+        res = session.request(**data)
+    except Exception as e:
+        res = None
+        
     return res
 
 def build(url_list=[], headers=None, data=None, method='GET', worker=70, custom_request=False, show_execution_time=False):

@@ -1,7 +1,7 @@
 # FGrequests: Fastest Asyncronous Group Requests
 
 
-[![PyPI version fury.io](https://badge.fury.io/py/ansicolortags.svg)](https://pypi.org/project/fgrequests/)
+[![PyPI version fury.io](https://badge.fury.io/py/fgrequests.svg)](https://pypi.org/project/fgrequests/)
 [![PyPI pyversions](https://img.shields.io/pypi/pyversions/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
 [![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
 
@@ -23,8 +23,8 @@ Install using pip:
 ```
 
 
-Documentation
--------------
+# Documentation
+
 
 
 See the change log at <https://Python-Markdown.github.io/change_log>.
