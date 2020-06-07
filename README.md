@@ -1,7 +1,7 @@
 # FGrequests: Fastest Asyncronous Group Requests
 
 [![PyPI version fury.io](https://badge.fury.io/py/fgrequests.svg)](https://pypi.org/project/fgrequests/)
-[![PyPI pyversions](https://img.shields.io/pypi/pyversions/fgrequests.svg)](https://pypi.python.org/pypi/ansicolortags/)
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/fgrequests.svg)](https://pypi.python.org/pypi/fgrequests/)
 [![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
 
 
