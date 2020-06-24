@@ -75,6 +75,39 @@ If you want to pass additional information while making requests, just pass your
 >>> response = fgreuests.build(urls, data=data)
 ```
 
+## Proxies
+
+If you need to use a proxy, you can configure individual requests with the proxies argument to any request method:
+
+```python
+>>> proxies = {
+    'http': 'http://10.10.1.10:3128',
+    'https': 'http://10.10.1.10:1080',
+}
+>>> response = fgreuests.build(urls, proxies=proxies)
+```
+
+To use HTTP Basic Auth with your proxy, use the http://user:password@host/ syntax:
+
+```python
+>>> proxies = {'http': 'http://user:pass@10.10.1.10:3128/'}
+```
+
+To give a proxy for a specific scheme and host, use the `scheme://hostname` form for the key. This will match for any request to the given scheme and exact hostname.
+
+```python
+>>> proxies = {'http://10.20.1.128': 'http://10.10.1.10:5323'}
+```
+
+## SSL Cert Verification
+
+Requests verifies SSL certificates for HTTPS requests, just like a web browser. By default, SSL verification is enabled, and Requests will throw a SSLError if it’s unable to verify the certificate. Requests can also ignore verifying the SSL certificate if you set verify to False:
+
+```python
+>>> response = fgrequests.build(urls, verify=False)
+```
+
+For more info: [SSL Cert Verification][]
 ## Worker
 
 It has another parameter `worker`. By default the value of `worker` is `40`. If you increase this it will work more faster. But there is a problem if you increase this too much, this will make a lot of pressure in your `CPU` cores which may freeze your system. If you reduce the value of `worker` you this will take more time to return responses. You can change the value of worker like this:
@@ -178,3 +211,4 @@ There have another parameter named `show_execution_time`. It returns the executi
 You may report bugs, ask for help, and discuss various other issues on the [bug tracker][].
 
 [bug tracker]: https://github.com/faridlu/fgrequests/issues
+[SSL Cert Verification]: https://requests.readthedocs.io/en/master/user/advanced/#ssl-cert-verification

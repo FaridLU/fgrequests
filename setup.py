@@ -7,7 +7,7 @@ def readme():
 
 setup(
     name='fgrequests',
-    version='0.0.8',
+    version='0.0.9',
     description='Fastest async group request package for Python',
     long_description=readme(),
     long_description_content_type='text/markdown',
