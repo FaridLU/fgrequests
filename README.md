@@ -212,3 +212,9 @@ You may report bugs, ask for help, and discuss various other issues on the [bug 
 
 [bug tracker]: https://github.com/faridlu/fgrequests/issues
 [SSL Cert Verification]: https://requests.readthedocs.io/en/master/user/advanced/#ssl-cert-verification
+
+
+# Donation
+If this project help you reduce time to develop, you can give me a cup of coffee 🙂 
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=faridstudylu%40gmail.com&currency_code=USD&source=url)
