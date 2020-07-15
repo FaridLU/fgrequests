@@ -3,6 +3,8 @@
 [![PyPI version fury.io](https://badge.fury.io/py/fgrequests.svg)](https://pypi.org/project/fgrequests/)
 [![PyPI pyversions](https://img.shields.io/pypi/pyversions/fgrequests.svg)](https://pypi.python.org/pypi/fgrequests/)
 [![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=faridstudylu%40gmail.com&currency_code=USD&source=url)
+
 
 # Installation
 
