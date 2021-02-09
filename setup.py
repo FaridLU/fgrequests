@@ -30,7 +30,7 @@ setup(
     py_modules=['fgrequests'],
     install_requires=[
         'requests',
-        'futures',
+        'futures; python_version == "2.7"',
     ],
     package_dir = {'': 'src'},
     include_package_data=True,
