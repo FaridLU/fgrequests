@@ -7,7 +7,7 @@ def readme():
 
 setup(
     name='fgrequests',
-    version='0.1.0',
+    version='0.1.1',
     description='Fastest async group request package for Python',
     long_description=readme(),
     long_description_content_type='text/markdown',
@@ -30,14 +30,15 @@ setup(
     py_modules=['fgrequests'],
     install_requires=[
         'requests',
+        'futures; python_version == "2.7"',
     ],
     package_dir = {'': 'src'},
     include_package_data=True,
     zip_safe=False,
     extra_require = {
-        'dev': [
-            'pytest>=3.7',
+        'dev': {
+            '': 'pytest>=3.7',
             ':python_version == "2.7"': ['futures']
-        ],
+        },
     }  
 )
