@@ -30,7 +30,6 @@ setup(
     py_modules=['fgrequests'],
     install_requires=[
         'requests',
-        'futures',
     ],
     package_dir = {'': 'src'},
     include_package_data=True,
@@ -38,6 +37,7 @@ setup(
     extra_require = {
         'dev': [
             'pytest>=3.7',
+            ':python_version == "2.7"': ['futures']
         ],
     }  
 )
