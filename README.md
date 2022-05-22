@@ -1,4 +1,4 @@
-# FGrequests: Fastest Asynchronous Group Requests
+# fgrequests: Fastest Asynchronous Group Requests
 
 [![PyPI version fury.io](https://badge.fury.io/py/fgrequests.svg)](https://pypi.org/project/fgrequests/)
 [![PyPI pyversions](https://img.shields.io/pypi/pyversions/fgrequests.svg)](https://pypi.python.org/pypi/fgrequests/)
